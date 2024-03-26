@@ -107,8 +107,6 @@ table tr:nth-child(odd){background-color: #DBDBDB;}
 
 table tr:hover {background-color: #f59f00;}
 
-/* table th:hover {background-color: #f59f00;} */
-
 table th {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -142,7 +140,6 @@ table th {
 .field-pdf, .video {
     text-align: center;
     color: #DBDBDB;
-    /* background-color: rgb(180, 180, 180); */
 }
 
 .field-pdf {
