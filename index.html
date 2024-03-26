@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas 1 WEB</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#A1">Form</a></li>
+            <li><a href="#A2">Tabel</a></li>
+            <li><a href="#A3">Video</a></li>
+            <li><a href="#A4">Pdf</a></li>
+            <li><a href="#A5">ol ul dl</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="title"><h2>Website Pemutar Lagu</h2></div>
+        <div class="form" id="A1">
+            <form action="">
+                <h3>Tuliskan nama kamu: </h3>
+                <input type="text" class="input-nama" placeholder="Nama">
+                <button type="button" id="submit">Kirim</button>
+            </form>
+        </div>
+        <div class="tabel" id="A2">
+            <h3>Daftar Judul dan Pembuat Lagu</h3>
+            <table border="1px">
+                <tr>
+                    <th>No</th>
+                    <th>Judul</th>
+                    <th>Pembuat</th>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td>Take A Chance With Me</td>
+                    <td>NIKI</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>I Wanna Be Yours</td>
+                    <td>Arctic Monkeys</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Counting Stars</td>
+                    <td>OneRepublic</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Mind Over Matter</td>
+                    <td>Young the Giant</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Blank Space</td>
+                    <td>Taylor Swift</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Ramadhan Tiba</td>
+                    <td>Opick</td>
+                </tr>
+            </table>
+        </div>
+        <div class="video" id="A3">
+            <h3>Video</h3>
+            <!-- <iframe src="https://youtu.be/XLunTSk5Z-c?si=Ua3-HI778i4Ox3pD" frameborder="0" width="425" height="325"></iframe> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XLunTSk5Z-c?si=SoThh-edfBwBMKZi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="field-pdf" id="A4">
+            <h3>Pdf file</h3>
+            <embed src="pdf/Modul Pemrograman Web.pdf" type="" width="50%" height="500px">
+        </div>
+        <div class="content" id="A5">
+            <h3>Lagu Yang bisa diputar di web ini</h3>
+            <ol>
+                <li>Ramadhan Tiba - Opcik</li>
+                <audio controls>
+                    <source src="audio/Opick+-+Ramadhan+Tiba+_+Official+Video.mp3" type="audio/mpeg">
+                Your browser does not support the audio
+                </audio>
+                <li>Ya Maulana - Opick</li>
+                <audio controls>
+                        <source src="audio/Opick+-+Ya+Maulana+_+Official+Music+Video.mp3" type="audio/mpeg">
+                Your browser does not support the audio
+                </audio>
+            </ol>
+            <ul>
+                <li>Penjaga Hati - Nadhif Basalamah</li>
+                <audio controls>
+                    <source src="audio/nadhif+basalamah+-+penjaga+hati+(Official+Music+Video).mp3" type="audio/mpeg">
+                Your browser does not support the audio
+                </audio>
+                <li>Tak Segampang Itu - Anggi Marito</li>
+                <audio controls>
+                    <source src="audio/Anggi+Marito+-+Tak+Segampang+Itu+(Official+Music+Video).mp3" type="audio/mpeg">
+                Your browser does not support the audio
+                </audio>
+            </ul>
+            <dl>
+                <dt>Views Ramadhan Tiba</dt>
+                <dd>10.446.198</dd>
+                <dt>Views Tak Segampang Itu</dt>
+                <dd>125.762.083</dd>
+            </dl>
+        </div>
+    </div>
+    <footer class="footer">
+        @ Copyright M. Fauzan Iskandar
+    </footer>
+</body>
+</html>
